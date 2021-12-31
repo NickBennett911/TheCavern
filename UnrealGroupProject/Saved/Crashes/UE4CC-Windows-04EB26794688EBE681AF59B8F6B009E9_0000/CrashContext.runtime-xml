@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>E706CD0F48C83357F9ED318E9560E2AD</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-04EB26794688EBE681AF59B8F6B009E9_0000</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: (FMath::Abs(1.f - M.GetScaledAxis(EAxis::X).SizeSquared()) &lt;= (1.e-4f)) &amp;&amp; (FMath::Abs(1.f - M.GetScaledAxis(EAxis::Y).SizeSquared()) &lt;= (1.e-4f)) &amp;&amp; (FMath::Abs(1.f - M.GetScaledAxis(EAxis::Z).SizeSquared()) &lt;= (1.e-4f)) [File:d:\build\++ue4\sync\engine\source\runtime\core\public\Math/Quat.h] [Line: 613]
+
+Stack: 
+0x00007ff655ac6d17 UE4Game.exe!UnknownFunction []
+0x00007ff64f8f4ce3 UE4Game.exe!UnknownFunction []
+0x00007ff65091f764 UE4Game.exe!UnknownFunction []
+0x00007ff6500e1f21 UE4Game.exe!UnknownFunction []
+0x00007ff650124e0c UE4Game.exe!UnknownFunction []
+0x00007ff6501235c4 UE4Game.exe!UnknownFunction []
+0x00007ff650101d50 UE4Game.exe!UnknownFunction []
+0x00007ff650101864 UE4Game.exe!UnknownFunction []
+0x00007ff650107fb3 UE4Game.exe!UnknownFunction []
+0x00007ff65011b619 UE4Game.exe!UnknownFunction []
+0x00007ff65433ab0e UE4Game.exe!UnknownFunction []
+0x00007ff6521a6bc0 UE4Game.exe!UnknownFunction []
+0x00007ff65219e5c1 UE4Game.exe!UnknownFunction []
+0x00007ff651b924df UE4Game.exe!UnknownFunction []
+0x00007ff652147f78 UE4Game.exe!UnknownFunction []
+0x00007ff65211faa4 UE4Game.exe!UnknownFunction []
+0x00007ff652133ee6 UE4Game.exe!UnknownFunction []
+0x00007ff652137559 UE4Game.exe!UnknownFunction []
+0x00007ff65078390d UE4Game.exe!UnknownFunction []
+0x00007ff650783d2e UE4Game.exe!UnknownFunction []
+0x00007ff653119ef4 UE4Game.exe!UnknownFunction []
+0x00007ff65311e2c9 UE4Game.exe!UnknownFunction []
+0x00007ff650c66cdf UE4Game.exe!UnknownFunction []
+0x00007ff650c5efa0 UE4Game.exe!UnknownFunction []
+0x00007ffa09be7034 KERNEL32.DLL!UnknownFunction []
+0x00007ffa0a8a2651 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>43420</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-UnrealGroupProject</GameName>
+<ExecutableName>UE4Game</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.26-CL-15973114-Win64-Development</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.26.2-15973114+++UE4+Release-4.26</EngineVersion>
+<CommandLine> ..\..\..\UnrealGroupProject\UnrealGroupProject.uproject</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.26-CL-15973114</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>D:/MySelfProjects/TheCavernBuild/WindowsNoEditor/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/MySelfProjects/TheCavernBuild/WindowsNoEditor/</RootDir>
+<MachineId>C1E50AE34D8819B1AD6023AF2C373620</MachineId>
+<LoginId>c1e50ae34d8819b1ad6023af2c373620</LoginId>
+<EpicAccountId>fa24782c295e4be6a61217ff7ee0cef3</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1060</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17052819456</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>7711674368</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>3869863936</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>425709568</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>428806144</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>848322560</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>851947520</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+UE4Game   0x00007ff64efc0000 + 6b06d17         
+UE4Game   0x00007ff64efc0000 + 934ce3          
+UE4Game   0x00007ff64efc0000 + 195f764         
+UE4Game   0x00007ff64efc0000 + 1121f21         
+UE4Game   0x00007ff64efc0000 + 1164e0c         
+UE4Game   0x00007ff64efc0000 + 11635c4         
+UE4Game   0x00007ff64efc0000 + 1141d50         
+UE4Game   0x00007ff64efc0000 + 1141864         
+UE4Game   0x00007ff64efc0000 + 1147fb3         
+UE4Game   0x00007ff64efc0000 + 115b619         
+UE4Game   0x00007ff64efc0000 + 537ab0e         
+UE4Game   0x00007ff64efc0000 + 31e6bc0         
+UE4Game   0x00007ff64efc0000 + 31de5c1         
+UE4Game   0x00007ff64efc0000 + 2bd24df         
+UE4Game   0x00007ff64efc0000 + 3187f78         
+UE4Game   0x00007ff64efc0000 + 315faa4         
+UE4Game   0x00007ff64efc0000 + 3173ee6         
+UE4Game   0x00007ff64efc0000 + 3177559         
+UE4Game   0x00007ff64efc0000 + 17c390d         
+UE4Game   0x00007ff64efc0000 + 17c3d2e         
+UE4Game   0x00007ff64efc0000 + 4159ef4         
+UE4Game   0x00007ff64efc0000 + 415e2c9         
+UE4Game   0x00007ff64efc0000 + 1ca6cdf         
+UE4Game   0x00007ff64efc0000 + 1c9efa0         
+KERNEL32  0x00007ffa09bd0000 + 17034           
+ntdll     0x00007ffa0a850000 + 52651           
+</PCallStack>
+<PCallStackHash>3718ED6EF089FE27F5D6C822F477B8B1CC7A713E</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 1060</RHI.AdapterName>
+<RHI.UserDriverVersion>456.71</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>27.21.14.5671</RHI.InternalDriverVersion>
+<RHI.DriverDate>9-30-2020</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
